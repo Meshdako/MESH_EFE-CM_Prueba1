@@ -10,7 +10,8 @@ function Products({ data }: Iprops) {
 
     return ( 
         <div>
-            <h1>Products</h1>
+            <h1>Productos</h1>
+            <hr />
             <table>
                 <tr>
                     <th>Nombre</th>
