@@ -10,6 +10,7 @@ export const App = () => {
   // Declaramos los estados.
   const [productos, setProductos] = useState<Data[]>([])
   const [loading, setLoading] = useState<boolean>(false)
+  
 
   const getDataAsync = async () => {
     setLoading(true)
