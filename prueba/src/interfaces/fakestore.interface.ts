@@ -1,4 +1,6 @@
-export type Store = Data[]
+export interface FakeStore {
+  data: Data[];
+}
 
 export interface Data {
   id: number
